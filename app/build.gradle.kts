@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)     // RecyclerView
+    implementation(libs.glide)                     // Glide: Image Loading Library
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
