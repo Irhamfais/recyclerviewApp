@@ -1,0 +1,4 @@
+# Module-level .gitignore untuk modul :app
+
+# Folder output build (APK, AAB, class files, resources hasil kompilasi)
+/build/

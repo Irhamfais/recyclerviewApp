@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    backup_rules.xml — aturan backup data aplikasi (Android 12+).
+    Tentukan data mana yang disertakan/dikecualikan dari backup otomatis.
+-->
+<full-backup-content>
+    <!--
+        Kecualikan file SharedPreferences yang bersifat sensitif dari backup.
+        Contoh: <exclude domain="sharedpref" path="credentials.xml"/>
+    -->
+</full-backup-content>

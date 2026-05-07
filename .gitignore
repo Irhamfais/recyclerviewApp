@@ -1,0 +1,24 @@
+# Root-level .gitignore untuk proyek Android
+
+# File build hasil kompilasi
+.gradle/
+build/
+
+# File lokal yang tidak perlu di-commit (berisi path SDK yang beda tiap mesin)
+local.properties
+
+# Folder konfigurasi IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Folder captures (GPU Debugger, Method Tracer, Network Profiler)
+captures/
+
+# Keystore yang berisi signing key (JANGAN di-commit ke repository publik!)
+*.jks
+*.keystore
+
+# File DS_Store (macOS) — tidak relevan di Windows tapi untuk keseragaman tim
+.DS_Store

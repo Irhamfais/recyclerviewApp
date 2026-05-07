@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nama aplikasi yang ditampilkan di launcher dan app bar -->
+    <string name="app_name">Movie List App</string>
+
+    <!-- Accessibility: deskripsi untuk ImageView poster (wajib untuk aksesibilitas) -->
+    <string name="poster_description">Poster film</string>
+</resources>
